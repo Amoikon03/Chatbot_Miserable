@@ -10,7 +10,7 @@ def read_cleaned_text(file_path):
     return content
 
 # Charger le texte nettoyé
-cleaned_text = read_cleaned_text('Miserable_Victor_Hugo.txt')
+cleaned_text = read_cleaned_text('Victor_Hugo/Miserable_Victor_Hugo.txt')
 
 # Convertir les paragraphes en vecteurs TF-IDF
 vectorizer = TfidfVectorizer().fit(cleaned_text)
