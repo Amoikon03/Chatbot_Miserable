@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Fonction pour lire le fichier texte nettoyé
 def read_cleaned_text(file_path):
-    with open("Miserable_Victor_Hugo.txt", 'r', encoding='utf-8') as file:
+    with open("Victor_Hugo/Miserable_Victor_Hugo.txt", 'r', encoding='utf-8') as file:
         content = file.readlines()
     return content
 
