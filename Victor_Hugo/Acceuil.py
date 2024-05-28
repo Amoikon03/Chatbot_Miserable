@@ -25,7 +25,7 @@ def paragraphe(texte):
 st.title("Les Misérables De Victor Hugo")
 
 # Image illustrative de l'application
-image_with_caption("2052088.webp", " ")
+image_with_caption("Victor_Hugo/2052088.webp", " ")
 
 # Résumé du livre avec texte justifié
 summary = """
